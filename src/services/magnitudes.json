@@ -1,0 +1,24 @@
+[
+  {
+    "temperature": [
+      {
+        "celsius":
+         {
+          "formulas":
+            [
+              {"farenheit": "9/5(°C + 32°)"}
+            ]
+         }
+      },
+      {
+        "farenheit":
+        {
+          "formulas":
+            [
+              {"celsius": "5/9(°F - 32°)"}
+            ]
+        }
+      }
+    ]
+  }
+]
