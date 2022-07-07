@@ -1,24 +1,23 @@
 [
   {
-    "temperature": [
-      {
-        "celsius":
-         {
-          "formulas":
-            [
-              {"farenheit": "9/5(°C + 32°)"}
-            ]
-         }
-      },
-      {
-        "farenheit":
-        {
-          "formulas":
-            [
-              {"celsius": "5/9(°F - 32°)"}
-            ]
-        }
-      }
-    ]
+    "temperature": ["celsius", "farenheit"]
+  },
+  {
+    "time": ["day", "hour", "minute", "second"]
+  },
+  {
+    "volume": ["cubic-meters", "cubic-decimeters", "cubic-centimeters", "cubic-yards", "cubic-feet", "cubic-inches"]
+  },
+  {
+    "weight": [ "short tons", "long tons", "metric tons", "kilograms", "pounds", "ounces", "quintals (Argentina)", "quintals (Brazil)", "quintals (Peru)", "quintals (Chile)", "quintals (Mexico)", "quintals (England)", "arroba" ]
+  },
+  {
+    "surface": [ "square centimeters", "square decimeters", "square meter", "hectares", "square inches", "square feet", "square yards", "areas", "acres", "square kilometers", "square miles" ]
+  },
+  {
+    "length": [ "centimeters", "meters", "dekameters", "hectometers", "kilometres", "myriameters", "yards", "miles", "feet", "inches" ]
+  },
+  {
+    "liquids": [ "american gallons", "english gallons", "liters", "cubic meters", "cubic feet", "barrel oil" ]
   }
 ]

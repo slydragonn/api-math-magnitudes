@@ -1,8 +1,8 @@
-import Temperature from '../types/temperature'
+import { Magnitudes } from '../types/types'
 import magtData from './magnitudes.json'
 
-const data = magtData as Temperature[]
+const data = magtData as Magnitudes
 
-export function getMagnitudes (): Temperature[] {
+export function getMagnitudes (): Magnitudes {
   return data
 }
